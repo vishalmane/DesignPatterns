@@ -27,8 +27,7 @@ namespace Command
                     _commands.Add(new FailedCommand(job));
                     _commands.Add(new SchedulerCommand(job));
                     _commands.Add(new DispatcherCommand(job));
-                    _commands.Add(new BatchCommand(job));
-                    break;
+                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
             }
