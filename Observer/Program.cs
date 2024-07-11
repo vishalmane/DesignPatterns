@@ -2,6 +2,9 @@
 
 namespace Observer
 {
+    // The Observer design pattern defines a one-to-many dependency between objects
+    // so that when one object changes state, all its dependents 
+    // are notified and updated automatically. 
     class Program
     {
         static void Main(string[] args)
